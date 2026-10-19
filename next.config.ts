@@ -1,14 +1,15 @@
+
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-   output: 'export',
-   cacheComponents: false,
-  /* config options here */
+  output: "export",
+
+  cacheComponents: false,
+
   experimental: {
     agentFeedback: true,
   },
-  
-  partialPrefetching: true,
+
   turbopack: {
     rules: {
       "*.css": {
