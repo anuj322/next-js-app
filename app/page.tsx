@@ -4,6 +4,7 @@ const page = () => {
   return (
     <div>
       hello world
+      second try
     </div>
   )
 }
