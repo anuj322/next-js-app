@@ -1,0 +1,9 @@
+services:
+  app:
+    image: anujp4061/myapp:latest
+    container_name: myapp
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    env_file:
+      - .env
